@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qYHpLCsvkkK21QyJZzZJUg" Reference="F287hBgpYk6MKpj4moFkOg/-E_iZy4Rf0upsfyldtAu4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" DesignTimeRectangle="639, 137, 625, 494" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='modal-content' parentid='logInModal' tag='DIV' /&gt;" Guid="cea89072-49ab-4477-aadb-4a31f3a98ef8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4c5a79ce81f2e047c0f10eae174e054a.png" xmlns="">0oJah1JKv1kCANI3EEjwnDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

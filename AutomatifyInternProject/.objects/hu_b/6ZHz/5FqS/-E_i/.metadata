@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Log in × Username root…'",
+  "Type": "Element",
+  "Id": "-E_iZy4Rf0upsfyldtAu4g",
+  "Reference": "F287hBgpYk6MKpj4moFkOg/-E_iZy4Rf0upsfyldtAu4g",
+  "ParentRef": "F287hBgpYk6MKpj4moFkOg/5FqSIMBmWE6UbgZjVwK9wg",
+  "Created": "2025-04-29T12:46:22.3718732Z",
+  "Updated": "2025-04-29T12:46:22.3718732Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
