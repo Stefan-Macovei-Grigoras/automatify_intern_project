@@ -6,8 +6,8 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
-      "Name": "io_userLoggedIn",
-      "DisplayName": "io_userLoggedIn",
+      "Name": "out_userLoggedIn",
+      "DisplayName": "out_userLoggedIn",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,
