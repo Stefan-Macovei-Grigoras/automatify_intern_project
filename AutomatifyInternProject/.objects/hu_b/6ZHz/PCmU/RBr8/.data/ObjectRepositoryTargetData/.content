@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5R3AXbu24kuPJaPethU_sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="8ad08fc8-a299-4f44-a72a-ff30457fb0ac" DesignTimeRectangle="185, 621, 319, 69" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='itemc' tag='A' innertext='Phones' /&gt;" Guid="595c84fe-3488-46bb-a3e9-c87e8f98586d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8ad08fc8-a299-4f44-a72a-ff30457fb0ac" DesignTimeRectangle="185, 543, 319, 79" ElementType="Text" FullSelectorArgument="&lt;webctrl id='cat' tag='A' innertext='CATEGORIES' /&gt;" Guid="05d41c45-7dfb-480b-b55d-21bb6040e4f5" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3371489240a6f0517b9b8666d3c80488.png" xmlns="">0CTFqoI3-7ECEI1DZL3fi2A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

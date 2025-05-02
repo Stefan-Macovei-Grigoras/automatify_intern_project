@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="GoHome" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="GoHome_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GoHome" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="GoHome_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -33,6 +33,7 @@
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -68,14 +69,22 @@
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GoHome" sap:VirtualizedContainerService.HintSize="1400,869.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GoHome" sap:VirtualizedContainerService.HintSize="1387,869.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Navigate to home&quot;]" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge STORE" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,520" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1d5ca205-4842-4076-b6c4-56de192539a6" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
@@ -92,7 +101,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="demoblaze.com/cart.html" CVScreenId="aa660c70-b4ec-4c06-ac03-89945d689c7f" ContentHash="-bWKz5LG00WvPIrM8OfzYA" DesignTimeRectangle="620, 120, 73, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='navbar*' tag='A' aaname='Home*' href='index.html' /&gt;" Guid="63d86c1e-1124-45f6-88d4-f0d7932102cc" InformativeScreenshot="1046e19306a9b823037eeed533d33a3c.png" Reference="F287hBgpYk6MKpj4moFkOg/eoHmZ-WXakS9sBZ1j4GeAQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="aa660c70-b4ec-4c06-ac03-89945d689c7f" DesignTimeRectangle="248, 109, 1425, 73" FullSelectorArgument="&lt;webctrl class='container' tag='DIV' /&gt;" Guid="7a163848-5016-4853-8e2c-886b17ee0be8" SearchSteps="Selector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

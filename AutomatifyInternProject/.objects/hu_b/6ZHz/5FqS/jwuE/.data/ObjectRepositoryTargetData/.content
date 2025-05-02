@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Hus-AZIsr0iiHGbvAWbe1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Lhe2HsrhYUq-LCFeOBM03A" Reference="F287hBgpYk6MKpj4moFkOg/jwuEshO4jU2pO8ODsA6hAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="dc8abbec-80c4-463f-981e-bad2eba234fb" DesignTimeRectangle="1375, 121, 72, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login*' tag='A' /&gt;" Guid="6eabc09f-04b2-44e5-bc98-5c0121225fa9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="dc8abbec-80c4-463f-981e-bad2eba234fb" DesignTimeRectangle="1375, 121, 72, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login*' tag='A' /&gt;" Guid="6eabc09f-04b2-44e5-bc98-5c0121225fa9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="dc8abbec-80c4-463f-981e-bad2eba234fb" CvTextArea="1455, 134, 69, 23" CvTextArgument="Sign up" CvType="Text" DesignTimeRectangle="1447, 121, 85, 50" ElementType="Text" FullSelectorArgument="&lt;webctrl id='signin2' tag='A' /&gt;" Guid="4c7a70a4-e7c5-4c45-b236-c7b040a4d25b" SearchSteps="Selector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="2dc08606b96e2dc0cc1e5c06f78fb457.png" xmlns="">0KACpB2jd9EO966eUcyQ4QA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="2dc08606b96e2dc0cc1e5c06f78fb457.png" xmlns="">0s8W6Pv136U6kI-dMQci2yg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

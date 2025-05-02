@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NXemoO5KzEi65UbLn3xBKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/prod.html" CVScreenId="6f71b3fe-bebb-4d5a-8eac-9e57ff5749cf" DesignTimeRectangle="1142, 191, 80, 40" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='www.demoblaze.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="2af0905b-4717-4004-a638-78148c32fda2" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='STORE and 13 more pages - School - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="682, 95, 560, 157" FullSelectorArgument="&lt;ctrl name='www.demoblaze.com says' role='dialog' /&gt;" Guid="48b28cf5-0cf0-42ed-92de-4115f78be404" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="714c8ab27038f98426555ff49ae9e1e7.png" xmlns="">0agcDAepkYUOkPMGlF32eqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

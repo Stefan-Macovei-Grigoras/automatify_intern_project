@@ -2,7 +2,7 @@
   "name": "AutomatifyInternProject",
   "projectId": "b1478c22-514c-4c04-bf26-6f5789a1de36",
   "description": "Blank Process",
-  "main": "Login - ACME.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[25.2.1]",
     "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
@@ -48,6 +48,12 @@
     {
       "filePath": "Login - ACME.xaml",
       "uniqueId": "0a26f451-815b-432d-a01b-1fbc95318eb8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e8932cbc-4bb6-40c4-9055-0ac8a3a2a506",
       "input": [],
       "output": []
     }

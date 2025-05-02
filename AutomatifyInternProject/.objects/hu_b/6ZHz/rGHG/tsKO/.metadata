@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'text Product added.'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "tsKOiPgaB0KRKNB_mvoFQQ",
+  "Reference": "F287hBgpYk6MKpj4moFkOg/tsKOiPgaB0KRKNB_mvoFQQ",
+  "ParentRef": "F287hBgpYk6MKpj4moFkOg/rGHGVyMknUG-3dbR0ZY1og",
+  "Created": "2025-04-30T14:42:09.4316534Z",
+  "Updated": "2025-04-30T14:42:09.4316534Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
