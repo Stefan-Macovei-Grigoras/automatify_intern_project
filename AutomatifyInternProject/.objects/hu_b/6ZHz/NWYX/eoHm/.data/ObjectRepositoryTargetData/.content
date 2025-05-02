@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-bWKz5LG00WvPIrM8OfzYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="fAilkr5yWkGpSc2tw8uMcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/cart.html" CVScreenId="aa660c70-b4ec-4c06-ac03-89945d689c7f" DesignTimeRectangle="620, 120, 73, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='navbar*' tag='A' aaname='Home*' href='index.html' /&gt;" Guid="63d86c1e-1124-45f6-88d4-f0d7932102cc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/prod.html" CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="932, 174, 77, 45" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout2' tag='A' innertext='Log out' parentid='navbarExample' /&gt;" Guid="d7376f00-334f-4feb-9c60-90021467430f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="aa660c70-b4ec-4c06-ac03-89945d689c7f" DesignTimeRectangle="248, 109, 1425, 73" FullSelectorArgument="&lt;webctrl class='container' tag='DIV' /&gt;" Guid="7a163848-5016-4853-8e2c-886b17ee0be8" SearchSteps="Selector" />
+          <Target CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="310, 164, 1282, 65" FullSelectorArgument="&lt;webctrl class='container' tag='DIV' /&gt;" Guid="4aa1e9d5-0e56-47ab-b938-d24db214d1f0" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="1046e19306a9b823037eeed533d33a3c.png" xmlns="">0s-8JMZdV202T0lI_5gB0NQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="83a8ab0b9f6373ba5f55815d23ed3863.png" xmlns="">01AfdGBXnY06Wgizynj0NEg</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
