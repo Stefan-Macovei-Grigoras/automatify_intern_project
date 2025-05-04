@@ -278,7 +278,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element - Welcome User" sap:VirtualizedContainerService.HintSize="433.6,139.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
                     <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33d68258-c921-47a9-b360-9ca81d9db19f" InformativeScreenshot="951f004d5e36911de70999ab4dd2bce9" Selector="&lt;webctrl id='nameofuser' tag='A' innertext='Welcome root0' parentid='navbarExample' /&gt;" TimeoutMS="7000">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33d68258-c921-47a9-b360-9ca81d9db19f" InformativeScreenshot="951f004d5e36911de70999ab4dd2bce9" Selector="&lt;webctrl id='nameofuser' tag='A' innertext='Welcome root0' parentid='navbarExample' /&gt;" TimeoutMS="5000">
                         <ui:Target.WaitForReady>
                           <InArgument x:TypeArguments="ui:WaitForReady" />
                         </ui:Target.WaitForReady>
@@ -308,7 +308,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login fails, the login form needs to be closed so the app reaches the initial state&#xD;&#xA;Like this a retry can be done" DisplayName="Close Popup - Login form" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,228.8" sap2010:WorkflowViewState.IdRef="NClosePopup_4" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V4">
+                      <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login fails, the login form needs to be closed so the app reaches the initial state&#xA;Like this a retry can be done" DisplayName="Close Popup - Login form" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,228.8" sap2010:WorkflowViewState.IdRef="NClosePopup_4" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>

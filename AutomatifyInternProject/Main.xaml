@@ -101,7 +101,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap2010:Annotation.AnnotationText="" DisplayName="Main" sap:VirtualizedContainerService.HintSize="1408.8000000000002,383.19999999999993" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart sap2010:Annotation.AnnotationText="" DisplayName="Main" sap:VirtualizedContainerService.HintSize="856.8000000000001,373.6" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="userInputCorrect" />
       <Variable x:TypeArguments="x:String" Name="phoneBrand" />
@@ -131,7 +131,7 @@
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">595,1205</av:Point>
           <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">650.2,1275.4 650.2,1305.4 650,1305.4 650,1350</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">650.2,1275.4 650.2,1305.4000000000003 650,1305.4000000000003 650,1350</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Sequence sap2010:Annotation.AnnotationText="Based on the specifications, filter the products" DisplayName="Extract Products Based on FIlters" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -236,7 +236,7 @@
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">620,1350</av:Point>
               <av:Size x:Key="ShapeSize">60,60</av:Size>
-              <av:PointCollection x:Key="TrueConnector">650,1410 650,1440 650.2,1440 650.2,1485</av:PointCollection>
+              <av:PointCollection x:Key="TrueConnector">650,1410 650,1440.0000000000002 650.2,1440.0000000000002 650.2,1485</av:PointCollection>
               <av:PointCollection x:Key="FalseConnector">620,1380 590,1380 590,1380.2 475.4,1380.2</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -249,7 +249,7 @@
                   <av:PointCollection x:Key="ConnectorLocation">650.2,1555.4 650.2,1625</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Add Product to Cart" sap:VirtualizedContainerService.HintSize="516.8,1291.9999999999998" sap2010:WorkflowViewState.IdRef="Sequence_21">
+              <Sequence DisplayName="Add Product to Cart" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_21">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -313,7 +313,7 @@
                     <uix:TargetApp Area="-9, -9, 1863, 1098" BrowserType="Edge" ContentHash="sUcsQPCcpEGe73Bg-Sjy7g" IconBase64="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" InformativeScreenshot="5ca7c9096ea098543d4eef6c705c14b3.jpg" Reference="F287hBgpYk6MKpj4moFkOg/AKw7kZsMRESOmqWYJaE5uw" Selector="&lt;html app='msedge.exe' url='https://www.demoblaze.com/*' /&gt;" Url="https://www.demoblaze.com/*" Version="V2" />
                   </uix:NApplicationCard.TargetApp>
                 </uix:NApplicationCard>
-                <ui:LogMessage DisplayName="Log Message - Product was added" sap:VirtualizedContainerService.HintSize="334.4,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Product added succesfully&quot;]" />
+                <ui:LogMessage DisplayName="Log Message - Product was added" sap:VirtualizedContainerService.HintSize="483.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Product added succesfully&quot;]" />
               </Sequence>
               <FlowStep.Next>
                 <FlowStep x:Name="__ReferenceID13" sap2010:WorkflowViewState.IdRef="FlowStep_4">
@@ -573,7 +573,6 @@
                   </ActivityAction.Argument>
                   <Sequence DisplayName="Do - Use Browser" sap:VirtualizedContainerService.HintSize="537.6,1179.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
                     <Sequence.Variables>
-                      <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="deleteUiElements" />
                       <Variable x:TypeArguments="ui:UiElement" Name="foundDeleteButton" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
@@ -690,7 +689,7 @@
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">355,415</av:Point>
           <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">410.2,485.4 410.2,515.4000000000001 410,515.4000000000001 410,570</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">410.2,485.4 410.2,515.4 410,515.4 410,570</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="If the user is not logged in already, proceed to do so" DisplayName="Login - ACME" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Login - ACME.xaml">
