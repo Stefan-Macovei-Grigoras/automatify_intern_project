@@ -1,0 +1,64 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Login - ACME.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "username&Sequence_3",
+        "password&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_loginStatus"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_userLoggedIn"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigateToCart.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "filteredRow&Sequence_35",
+        "productsDataTable&Sequence_35",
+        "productsCards&Sequence_22",
+        "phonePrice&Flowchart_1",
+        "userInputCorrect&Flowchart_1",
+        "phoneBrand&Flowchart_1",
+        "deleteUiElements&Sequence_12",
+        "foundDeleteButton&Sequence_12",
+        "productLink&Sequence_36"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_productLink",
+        "out_userLoggedIn"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
