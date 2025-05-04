@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Icon 'CATEGORIES'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "LzLI_ZbLCkmbG96rCj95yg",
+  "Reference": "F287hBgpYk6MKpj4moFkOg/LzLI_ZbLCkmbG96rCj95yg",
+  "ParentRef": "F287hBgpYk6MKpj4moFkOg/NWYXtbZq2EuvCimrj6Jv3A",
+  "Created": "2025-05-04T04:36:42.2768233Z",
+  "Updated": "2025-05-04T04:36:42.2768233Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

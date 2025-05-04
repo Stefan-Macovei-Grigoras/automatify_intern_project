@@ -6,6 +6,18 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
+      "Name": "out_messageBoxText",
+      "DisplayName": "out_messageBoxText",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
       "Name": "out_userLoggedIn",
       "DisplayName": "out_userLoggedIn",
       "Category": null,

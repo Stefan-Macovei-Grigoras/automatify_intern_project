@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W2Zhy4GT6k2b3U0NnLar0A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" DesignTimeRectangle="448, 194, 706, 275" DesignTimeScaleFactor="0.8999999761581421" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='carouselExampleIndicators' tag='IMG' parentclass='carousel-item active' /&gt;" Guid="579955d4-00d6-4433-b6fe-a8b0871c7506" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="295, 528, 229, 58" ElementType="Text" FullSelectorArgument="&lt;webctrl id='cat' tag='A' innertext='CATEGORIES' parentid='contcont' /&gt;" Guid="b7ce1346-0abc-454a-9770-5ee85f9415a4" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Hq5DDHYSS0uouvzVq4pHTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="HZIxc7SnzEynRAdKo2ruaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="3d5db68f-0c73-4ba0-8ca5-449fc89e244f" DesignTimeRectangle="1142, 191, 80, 40" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='www.demoblaze.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="1da25b49-0733-45ad-a7d3-7ff3c6448b89" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='STORE and 1 more page - School - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="49a68ca89c741e094775fc4344f02211.png" xmlns="">0uMf_N1lV4UWJ6FCwwl9Ffw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="d8ecf1f2-82e6-49b8-b0e7-6ba4d94c0e7e" DesignTimeRectangle="860, 462, 67, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Close' parentid='logInModal' tag='BUTTON' innertext='Close' /&gt;" Guid="9ad30b92-c46e-44f7-a5a4-ed68fae7b6d2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d8ecf1f2-82e6-49b8-b0e7-6ba4d94c0e7e" DesignTimeRectangle="934, 462, 70, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Log in' parentid='logInModal' tag='BUTTON' innertext='Log in' /&gt;" Guid="9f9ef421-8bc0-4d92-907d-a0d389ae83ae" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VmGJ-p5rfEGOopUGfGpd3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="4d341083-3fee-4bff-8dfe-4283969e1f9b" DesignTimeRectangle="1087, 141, 52, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login2' tag='A' parentid='navbarExample' visibleinnertext='Log in' /&gt;" Guid="8b3055c2-53d6-457e-a809-1f0571738310" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4d341083-3fee-4bff-8dfe-4283969e1f9b" DesignTimeRectangle="566, 141, 634, 36" FullSelectorArgument="&lt;webctrl id='navbarExample' tag='DIV' parentid='narvbarx' /&gt;" Guid="b125c911-a732-4878-9dea-9bdf68d628f8" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

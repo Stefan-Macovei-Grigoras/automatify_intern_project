@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9AscjXVuZkG7OrnYOf5Jhw" Reference="F287hBgpYk6MKpj4moFkOg/ddoR1_qIKUOvlmnHh8GbRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="9e4e85d8-e8ac-4789-83b1-a6a5267a84c5" DesignTimeRectangle="59, 125, 0, 0" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout*' tag='A' visibleinnertext='Log out' /&gt;" Guid="99a6aa47-ad0c-439c-9d04-311df798f193" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9e4e85d8-e8ac-4789-83b1-a6a5267a84c5" DesignTimeRectangle="295, 684, 229, 51" ElementType="Text" FullSelectorArgument="&lt;webctrl id='nameofuser' tag='A' innertext='Welcome root0' /&gt;" Guid="27092fcf-56e0-418e-b5a6-ab5f69767c64" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
