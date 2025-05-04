@@ -46,14 +46,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Login - ACME.xaml",
-      "uniqueId": "0a26f451-815b-432d-a01b-1fbc95318eb8",
+      "filePath": "Main.xaml",
+      "uniqueId": "e8932cbc-4bb6-40c4-9055-0ac8a3a2a506",
       "input": [],
       "output": []
     },
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "e8932cbc-4bb6-40c4-9055-0ac8a3a2a506",
+      "filePath": "SesionManagement\\Login.xaml",
+      "uniqueId": "da8fc7c4-fcad-4379-92bc-ba1713969350",
       "input": [],
       "output": []
     }
