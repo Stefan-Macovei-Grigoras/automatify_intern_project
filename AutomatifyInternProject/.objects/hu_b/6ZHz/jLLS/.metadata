@@ -1,0 +1,13 @@
+﻿{
+  "Name": "- EdgeAny Page",
+  "Type": "Screen",
+  "Id": "jLLSIpNu80acpncindj4PQ",
+  "Reference": "F287hBgpYk6MKpj4moFkOg/jLLSIpNu80acpncindj4PQ",
+  "ParentRef": "F287hBgpYk6MKpj4moFkOg/6ZHzmCZ2D06CPf1Ud25ySQ",
+  "Created": "2025-05-05T08:29:40.0405749Z",
+  "Updated": "2025-05-05T08:29:40.0405749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

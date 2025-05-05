@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="9qjw7MwOKEKE8xP1vHVaPA" Reference="F287hBgpYk6MKpj4moFkOg/bXOO8IoWyEGvetvTK0JT_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="zZ22_pwM0k253U5ByIK03g" Reference="F287hBgpYk6MKpj4moFkOg/bXOO8IoWyEGvetvTK0JT_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="20ae261a-f777-4965-a87c-fbc2792ba708" DesignTimeRectangle="584, 352, 421, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='loginpassword' tag='INPUT' parentid='logInModal' /&gt;" Guid="71f78f33-ec90-488b-ba49-a2bf302680a7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="20ae261a-f777-4965-a87c-fbc2792ba708" DesignTimeRectangle="584, 352, 421, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='loginpassword' tag='INPUT' parentid='logInModal' /&gt;" Guid="71f78f33-ec90-488b-ba49-a2bf302680a7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="20ae261a-f777-4965-a87c-fbc2792ba708" DesignTimeRectangle="584, 312, 58, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='logInModal' tag='LABEL' visibleinnertext='Password:' /&gt;" Guid="bef0adf4-ac07-4ccb-aad9-190a0af7a58d" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="d79424c5cf729d676b8149001b686985.png" xmlns="">0oFTv8XJNAEOF7_F_4srsiA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="d79424c5cf729d676b8149001b686985.png" xmlns="">0x-wZcS6nv0yf_e31YYJawQ</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

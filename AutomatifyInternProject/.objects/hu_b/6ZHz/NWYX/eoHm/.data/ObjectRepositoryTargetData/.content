@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="fAilkr5yWkGpSc2tw8uMcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="0J-pugRrNECg1zTXPyzP9w" Reference="F287hBgpYk6MKpj4moFkOg/eoHmZ-WXakS9sBZ1j4GeAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/prod.html" CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="932, 174, 77, 45" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout2' tag='A' innertext='Log out' parentid='navbarExample' /&gt;" Guid="d7376f00-334f-4feb-9c60-90021467430f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/prod.html" CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="932, 174, 77, 45" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout2' tag='A' innertext='Log out' parentid='navbarExample' /&gt;" Guid="d7376f00-334f-4feb-9c60-90021467430f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="310, 164, 1282, 65" FullSelectorArgument="&lt;webctrl class='container' tag='DIV' /&gt;" Guid="4aa1e9d5-0e56-47ab-b938-d24db214d1f0" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="83a8ab0b9f6373ba5f55815d23ed3863.png" xmlns="">01AfdGBXnY06Wgizynj0NEg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="83a8ab0b9f6373ba5f55815d23ed3863.png" xmlns="">0v5N3upmIU0qVyeMYgv4Uag</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
+    <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

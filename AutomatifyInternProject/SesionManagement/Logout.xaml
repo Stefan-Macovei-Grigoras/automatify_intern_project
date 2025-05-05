@@ -87,7 +87,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GoHome" sap:VirtualizedContainerService.HintSize="1392.0000000000002,1229.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GoHome" sap:VirtualizedContainerService.HintSize="1019.2,1229.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -108,7 +108,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Logout" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1d5ca205-4842-4076-b6c4-56de192539a6" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="demoblaze.com/prod.html" CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" ContentHash="fAilkr5yWkGpSc2tw8uMcQ" DesignTimeRectangle="932, 174, 77, 45" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout2' tag='A' innertext='Log out' parentid='navbarExample' /&gt;" Guid="d7376f00-334f-4feb-9c60-90021467430f" InformativeScreenshot="83a8ab0b9f6373ba5f55815d23ed3863.png" Reference="F287hBgpYk6MKpj4moFkOg/eoHmZ-WXakS9sBZ1j4GeAQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="demoblaze.com/prod.html" CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" ContentHash="0J-pugRrNECg1zTXPyzP9w" DesignTimeRectangle="932, 174, 77, 45" DesignTimeScaleFactor="1.125" ElementType="Text" FullSelectorArgument="&lt;webctrl id='logout2' tag='A' innertext='Log out' parentid='navbarExample' /&gt;" Guid="d7376f00-334f-4feb-9c60-90021467430f" InformativeScreenshot="83a8ab0b9f6373ba5f55815d23ed3863.png" Reference="F287hBgpYk6MKpj4moFkOg/eoHmZ-WXakS9sBZ1j4GeAQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="0b2f72ca-a2f7-476d-a43b-929aecefb06c" DesignTimeRectangle="310, 164, 1282, 65" FullSelectorArgument="&lt;webctrl class='container' tag='DIV' /&gt;" Guid="4aa1e9d5-0e56-47ab-b938-d24db214d1f0" SearchSteps="Selector" />

@@ -9,30 +9,31 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Login - ACME.xaml",
+      "Path": "SesionManagement/Login.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "username&Sequence_3",
         "password&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
-        "out_loginStatus"
+        "out_userLoggedIn",
+        "out_messageBoxText"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "process.xaml",
+      "Path": "Navigation/NavigateToCart.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "out_userLoggedIn"
+        "in_cartUrl"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "NavigateToCart.xaml",
+      "Path": "Navigation/GoHome.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
@@ -43,20 +44,24 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "filteredRow&Sequence_35",
-        "productsDataTable&Sequence_35",
-        "productsCards&Sequence_22",
-        "phonePrice&Flowchart_1",
+        "cartUrl&Flowchart_1",
+        "messageBoxText&Flowchart_1",
         "userInputCorrect&Flowchart_1",
         "phoneBrand&Flowchart_1",
-        "deleteUiElements&Sequence_12",
-        "foundDeleteButton&Sequence_12",
-        "productLink&Sequence_36"
+        "phonePrice&Flowchart_1",
+        "productsDataTable&Flowchart_1",
+        "userLoggedIn&Flowchart_1",
+        "foundDeleteButton&Sequence_1"
       ],
-      "ArgumentsSectionElementsOrder": [
-        "out_productLink",
-        "out_userLoggedIn"
-      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SesionManagement/Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

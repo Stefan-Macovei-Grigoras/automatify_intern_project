@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="sBRRnZBkYUWOVoN6RmsFgg" Reference="F287hBgpYk6MKpj4moFkOg/NAO71zteqUi4YzC7Qr2yzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="vSHw0ZZE6kme4RlN9PObTA" Reference="F287hBgpYk6MKpj4moFkOg/NAO71zteqUi4YzC7Qr2yzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="5717ff2e-fd8a-47fd-98ef-6b048ef0684f" DesignTimeRectangle="1087, 142, 52, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login2' tag='A' parentid='navbarExample' visibleinnertext='Log in' /&gt;" Guid="9527edfc-5318-4aeb-8d42-698a052f85e4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="demoblaze.com/index.html" CVScreenId="5717ff2e-fd8a-47fd-98ef-6b048ef0684f" DesignTimeRectangle="1087, 142, 52, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login2' tag='A' parentid='navbarExample' visibleinnertext='Log in' /&gt;" Guid="9527edfc-5318-4aeb-8d42-698a052f85e4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="5717ff2e-fd8a-47fd-98ef-6b048ef0684f" DesignTimeRectangle="1139, 142, 61, 36" ElementType="Text" FullSelectorArgument="&lt;webctrl id='signin*' tag='A' parentid='navbarExample' visibleinnertext='Sign up' /&gt;" Guid="fe77f4cb-02a1-46e9-843e-427f39497b82" SearchSteps="Selector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="7b0995ba66f0003a979eced2762ecb12.png" xmlns="">0VUZuExvdcUumxENZU7YKtg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="7b0995ba66f0003a979eced2762ecb12.png" xmlns="">0_ZJuFMPnFUqiScNVH1xNtA</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
+    <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
