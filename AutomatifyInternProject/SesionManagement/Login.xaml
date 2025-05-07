@@ -114,20 +114,20 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="618.4000000000001,3232" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1365.2,3219" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message - Login reached" sap:VirtualizedContainerService.HintSize="536,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Logging in started&quot;]" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser - Edge/ Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="536,3034.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="191832b9-9359-4b03-90db-fda4db49f320" Version="V2" WindowResize="Maximize">
+    <ui:LogMessage DisplayName="Log Message - Login reached" sap:VirtualizedContainerService.HintSize="538,173" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Logging in started&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser - Edge/ Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="538,3023" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="191832b9-9359-4b03-90db-fda4db49f320" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do - Use Browser" sap:VirtualizedContainerService.HintSize="502.4,2794.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do - Use Browser" sap:VirtualizedContainerService.HintSize="504,2783" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="username" />
               <Variable x:TypeArguments="ss:SecureString" Name="password" />
@@ -138,7 +138,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRobotCredential TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="User's credentials are stored in the Orchestrator as assets" AssetName="demoblazeCredentials" CacheStrategy="None" DisplayName="Get Credential - Orchestrator" FolderPath="automatiy_intern_project" sap:VirtualizedContainerService.HintSize="468.8,219.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]">
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="User's credentials are stored in the Orchestrator as assets" AssetName="demoblazeCredentials" CacheStrategy="None" DisplayName="Get Credential - Orchestrator" FolderPath="automatiy_intern_project" sap:VirtualizedContainerService.HintSize="470,217" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -147,7 +147,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:GetRobotCredential>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Login Navbar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Login Navbar" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="demoblaze.com/index.html" CVScreenId="5717ff2e-fd8a-47fd-98ef-6b048ef0684f" ContentHash="vSHw0ZZE6kme4RlN9PObTA" DesignTimeRectangle="1087, 142, 52, 36" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" FullSelectorArgument="&lt;webctrl id='login2' tag='A' parentid='navbarExample' visibleinnertext='Log in' /&gt;" Guid="9527edfc-5318-4aeb-8d42-698a052f85e4" InformativeScreenshot="7b0995ba66f0003a979eced2762ecb12.png" Reference="F287hBgpYk6MKpj4moFkOg/NAO71zteqUi4YzC7Qr2yzg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
                   <uix:TargetAnchorable.Anchors>
@@ -177,7 +177,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Text="[username]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Text="[username]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="demoblaze.com/index.html" CVScreenId="dc289559-2598-4b87-8c9e-2bdf2ecf5141" ContentHash="f7BSAHf2FEKFyHUJHLuWkw" DesignTimeRectangle="584, 263, 421, 34" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='loginusername' tag='INPUT' parentid='logInModal' /&gt;" Guid="a523010e-0466-4ced-b3b1-49138d0c3679" InformativeScreenshot="bba6dec3a98d5da422923908200f1666.png" IsResponsive="True" Reference="F287hBgpYk6MKpj4moFkOg/2Ba1VuwsHUWzi1b92bfJcg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
                   <uix:TargetAnchorable.Anchors>
@@ -204,7 +204,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" SecureText="[password]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into - Password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" SecureText="[password]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="demoblaze.com/index.html" CVScreenId="20ae261a-f777-4965-a87c-fbc2792ba708" ContentHash="zZ22_pwM0k253U5ByIK03g" DesignTimeRectangle="584, 352, 421, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='loginpassword' tag='INPUT' parentid='logInModal' /&gt;" Guid="71f78f33-ec90-488b-ba49-a2bf302680a7" InformativeScreenshot="d79424c5cf729d676b8149001b686985.png" Reference="F287hBgpYk6MKpj4moFkOg/bXOO8IoWyEGvetvTK0JT_w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
                   <uix:TargetAnchorable.Anchors>
@@ -231,7 +231,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Login Pop-up" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Login Pop-up" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="191832b9-9359-4b03-90db-fda4db49f320" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="demoblaze.com/index.html" CVScreenId="6a92e470-e9fd-45ba-ab71-c02dca5f989c" ContentHash="AJSFHEcPjkWaAjinvoW48A" DesignTimeRectangle="934, 463, 70, 35" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='logInModal' tag='BUTTON' visibleinnertext='Log in' /&gt;" Guid="23b0c5b4-dd2d-4e71-8f03-aad90150ee9c" InformativeScreenshot="c3d6d3f4bd9a0f4ec4152c689ba8e2ab.png" Reference="F287hBgpYk6MKpj4moFkOg/uWltxMaGr0uR9fedPkzAHg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='STORE' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
                   <uix:TargetAnchorable.Anchors>
@@ -258,7 +258,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login failed, a dialog box appears that needs to be closed so pre-emptively we close it, otherwise the workflows hangs" DisplayName="Close Popup - Login failed" EnableAI="True" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468.8,248.8" sap2010:WorkflowViewState.IdRef="NClosePopup_3" PopupAppearTimeout="6" PreferredButtons="[New String(){&quot;Close&quot;,&quot;Cancel&quot;,&quot;OK&quot;}]" Version="V4">
+            <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login failed, a dialog box appears that needs to be closed so pre-emptively we close it, otherwise the workflows hangs" DisplayName="Close Popup - Login failed" EnableAI="True" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,246" sap2010:WorkflowViewState.IdRef="NClosePopup_3" PopupAppearTimeout="6" PreferredButtons="[New String(){&quot;Close&quot;,&quot;Cancel&quot;,&quot;OK&quot;}]" Version="V4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -267,21 +267,21 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClosePopup>
-            <TryCatch DisplayName="Try Catch - Login verification" sap:VirtualizedContainerService.HintSize="468.8,1240.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch - Login verification" sap:VirtualizedContainerService.HintSize="470,1236" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Sequence DisplayName="Try - Finding &quot;Welcome&quot; Element" sap:VirtualizedContainerService.HintSize="467.2,480" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <Sequence DisplayName="Try - Finding &quot;Welcome&quot; Element" sap:VirtualizedContainerService.HintSize="468,479" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element - Welcome User" sap:VirtualizedContainerService.HintSize="433.6,139.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
+                  <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element - Welcome User" sap:VirtualizedContainerService.HintSize="434,139" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_5">
                     <ui:WaitUiElementAppear.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33d68258-c921-47a9-b360-9ca81d9db19f" InformativeScreenshot="951f004d5e36911de70999ab4dd2bce9" Selector="&lt;webctrl id='nameofuser' tag='A' parentid='navbarExample' visibleinnertext='Welcome root0' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="33d68258-c921-47a9-b360-9ca81d9db19f" InformativeScreenshot="951f004d5e36911de70999ab4dd2bce9" Selector="&lt;webctrl id='nameofuser' tag='A' parentid='navbarExample' visibleinnertext='Welcome*' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
                     </ui:WaitUiElementAppear.Target>
                   </ui:WaitUiElementAppear>
-                  <Assign DisplayName="Assign - out_userLoggedIn = True" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign DisplayName="Assign - out_userLoggedIn = True" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Boolean">[out_userLoggedIn]</OutArgument>
                     </Assign.To>
@@ -289,7 +289,7 @@
                       <InArgument x:TypeArguments="x:Boolean">True</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:LogMessage DisplayName="Log Message - Login succeded" sap:VirtualizedContainerService.HintSize="433.6,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Succesfull logged in&quot;]" />
+                  <ui:LogMessage DisplayName="Log Message - Login succeded" sap:VirtualizedContainerService.HintSize="434,166" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Succesfull logged in&quot;]" />
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
@@ -298,20 +298,20 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ui:ActivityTimeoutException" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,569.6" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,565" sap2010:WorkflowViewState.IdRef="Sequence_15">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login fails, the login form needs to be closed so the app reaches the initial state&#xA;Like this a retry can be done" DisplayName="Close Popup - Login form" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,228.8" sap2010:WorkflowViewState.IdRef="NClosePopup_4" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V4">
+                      <uix:NClosePopup PopupException="{x:Null}" PopupHandled="{x:Null}" sap2010:Annotation.AnnotationText="If the login fails, the login form needs to be closed so the app reaches the initial state&#xA;Like this a retry can be done" DisplayName="Close Popup - Login form" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClosePopup_4" PreferredButtons="[New String(){&quot;Close&quot;, &quot;Cancel&quot;}]" Version="V4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NClosePopup>
-                      <Assign DisplayName="Assign - out_userLoggedIn = False" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign DisplayName="Assign - out_userLoggedIn = False" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:Boolean">[out_userLoggedIn]</OutArgument>
                         </Assign.To>
@@ -319,13 +319,13 @@
                           <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <ui:LogMessage DisplayName="Log Message - Login failed" sap:VirtualizedContainerService.HintSize="433.6,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Error" Message="[&quot;Login failed&quot; + vbNewLine + exception.toString]" />
+                      <ui:LogMessage DisplayName="Log Message - Login failed" sap:VirtualizedContainerService.HintSize="434,166" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;Login failed&quot; + vbNewLine + exception.toString]" />
                     </Sequence>
                   </ActivityAction>
                 </Catch>
               </TryCatch.Catches>
               <TryCatch.Finally>
-                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="467.2,24.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="468,25" sap2010:WorkflowViewState.IdRef="Sequence_16">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>

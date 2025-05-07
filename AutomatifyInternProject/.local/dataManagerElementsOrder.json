@@ -44,13 +44,13 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "cartUrl&Flowchart_1",
-        "messageBoxText&Flowchart_1",
         "userInputCorrect&Flowchart_1",
         "phoneBrand&Flowchart_1",
         "phonePrice&Flowchart_1",
         "productsDataTable&Flowchart_1",
         "userLoggedIn&Flowchart_1",
+        "messageBoxText&Flowchart_1",
+        "cartUrl&Flowchart_1",
         "foundDeleteButton&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
